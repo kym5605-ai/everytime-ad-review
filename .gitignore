@@ -1,0 +1,16 @@
+# 공개 배포 repo — 추적(=공개) 파일은 index.html(암호화본) + README.md + .gitignore 뿐.
+# 평문/원본이 실수로도 들어오지 않도록 방어.
+*.plain.html
+*.dev.html
+*.enc.html
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.xlsx
+assets/
+*.py
+HANDOFF*.md
+DEPLOY*.md
+DASHBOARD*.md
+.DS_Store
